@@ -1,0 +1,69 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix moc: <https://music-ontology.fr/onto/moc#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://music-ontology.fr/onto/moc#> a owl:Ontology ;
+    dcterms:title "Jardin des connaissances" .
+
+
+moc:SmartContract a rdfs:Class ;
+    rdfs:label "SmartContract" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+moc:Programmeur a rdfs:Class ;
+    rdfs:label "Programmeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+moc:Utilisateur a rdfs:Class ;
+    rdfs:label "Utilisateur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+moc:Requis a rdfs:Class ;
+    rdfs:label "Requis" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+moc:Technologie a rdfs:Class ;
+    rdfs:label "Technologie" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+moc:Acommenom a rdf:Property ;
+    rdfs:label "Acommenom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+moc:Faitepar a rdf:Property ;
+    rdfs:label "Faitepar" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+moc:Estnele a rdf:Property ;
+    rdfs:label "Estnele" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
+
+moc:EstSortie a rdf:Property ;
+    rdfs:label "EstSortie" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+moc:Acommeutilisateur a rdf:Property ;
+    rdfs:label "Acommeutilisateur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
